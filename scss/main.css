@@ -143,4 +143,21 @@ hr {
     text-align: center !important;
   }
 }
+
+p.centrado {
+  font-family: acumin-pro, sans-serif;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 51.5%;
+  width: 100%;
+}
+
+main.main {
+  position: relative;
+  display: inline-block;
+}
 /*# sourceMappingURL=main.css.map */
