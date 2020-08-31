@@ -1,135 +1,32 @@
-@charset "UTF-8";
-@font-face {
-  font-family: ‘NeueMachina-Ultrabold’;
-  src: url(NeueMachina-Ultrabold.eot’);
-  src: url(NeueMachina-Ultrabold.woff’) format(‘woff’), url(NeueMachina-Ultrabold.ttf’) format(‘truetype’), url(NeueMachina-Ultrabold.svg’) format(‘svg’);
+main {
+  min-height: 76vh;
 }
 
-@font-face {
-  font-family: NeueMachina-Regular’;
-  src: url(NeueMachina-Regular.eot’);
-  src: url(NeueMachina-Regular.woff’) format(‘woff’), url(NeueMachina-Regular.ttf’) format(‘truetype’), url(NeueMachina-Regular.svg’) format(‘svg’);
+main main div {
+  padding-bottom: 90px;
 }
 
-body {
-  background-color: #e4e5ea;
-  color: #222220;
-}
-
-body header {
-  height: 60px;
-  background-color: #e4e5ea;
-  border-bottom: 2px solid black;
-}
-
-body header div a {
-  font-family: NeueMachina-Ultrabold;
-  font-size: 30px;
-  color: black;
-  text-decoration: none;
-}
-
-body header div a:hover {
-  font-family: NeueMachina-Ultrabold;
-  font-size: 30px;
-  color: black;
-  text-decoration: underline;
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
-}
-
-body header div ul li a {
-  font-family: acumin-pro, sans-serif;
-  font-weight: 100;
-  font-size: 17px;
-  text-align: right;
-  text-decoration: none;
-  margin-left: 20px;
-}
-
-body header div ul li a:hover {
-  font-family: acumin-pro, sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  text-align: right;
-  text-decoration: none;
-  margin-left: 20px;
-}
-
-body main h1 {
+main h1 {
   font-family: NeueMachina-Ultrabold;
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 40px;
 }
 
-body main h1 a {
+main h1 a {
   color: #222220;
   text-decoration: underline;
 }
 
-body main h1 a:hover {
+main h1 a:hover {
   color: #222220;
   -webkit-filter: blur(2px);
   filter: blur(2px);
 }
 
-body main p {
+main p {
   font-family: acumin-pro, sans-serif;
   font-weight: 100;
   margin-top: 50px;
-}
-
-body footer {
-  border-top: 2px solid black;
-  height: 70px;
-}
-
-body footer h3 {
-  font-family: NeueMachina-Regular;
-  text-align: left;
-  font-size: 22px;
-  line-height: 20px;
-  font-weight: 100;
-  margin-top: 20px;
-  margin-bottom: -1px;
-}
-
-body footer button {
-  font-family: NeueMachina-Regular;
-  font-size: 15px;
-  border: 1px solid black;
-  background-color: #e4e5ea;
-  border-color: black;
-  padding-top: 5px;
-  padding-bottom: 4px;
-  padding-right: 20px;
-  padding-left: 20px;
-  border-radius: 19px;
-  margin: 10px;
-  margin-top: 20px;
-}
-
-body footer .button:hover {
-  font-family: NeueMachina-Ultrabold;
-  font-size: 15px;
-  border: 1.5px solid black;
-  background-color: #e4e5ea;
-  border-color: black;
-  padding-top: 5px;
-  padding-bottom: 4px;
-  padding-right: 17.5px;
-  padding-left: 17px;
-  border-radius: 19px;
-  margin: 10px;
-  margin-top: 20px;
-  -webkit-filter: blur(1px);
-  filter: blur(1px);
-}
-
-body footer p {
-  font-family: acumin-pro, sans-serif;
-  font-weight: 100;
-  font-size: 14px;
 }
 /*# sourceMappingURL=about.css.map */

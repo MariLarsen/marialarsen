@@ -60,6 +60,7 @@ p{
 	font-weight: 900;
 	color: #222220;
 	text-decoration: none;
+	-webkit-filter: blur(1px);
 }
 
 h3{
@@ -202,6 +203,7 @@ textarea{
 	padding-right: 20px;
 	padding-left: 20px;
 	border-radius: 15px;
+	-webkit-filter: blur(1px);
 }
 .margin-right{
 	width: 30%;
@@ -216,6 +218,7 @@ textarea{
 	margin-right: 125px;
 	margin-left: 125px;
 	position: relative;
+	min-height: 70vh;
 }
 
 .padre-project{
@@ -315,7 +318,8 @@ margin-left: -10px;
 
 .main{
 	position: relative;
-    display: inline-block;
+	display: inline-block;
+	min-height: 76vh;
 }
 
 .centrado{
