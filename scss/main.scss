@@ -161,10 +161,22 @@ p.centrado{
         left: 0;
         right: 0;        
         text-align: center;
-        top: 51.5%;
+        top: 55.5%;
         width: 100%;
 	}
-main.main{
+
+#heding text{
+	
+}
+#headingtext:hover + #imgDiv {
+    background-image: url(https://media.giphy.com/media/UQVK2U9K8yKMTcU6Hu/giphy.gif);
+	background-repeat:no-repeat;
+	background-size: 100vw;
+}
+
+#imgDiv {
+    background-image: url(https://i.ibb.co/SmZj92P/macro.png);
+	background-repeat:no-repeat;
+	background-size: 100vw;
 	position: relative;
-    display: inline-block;
 }
